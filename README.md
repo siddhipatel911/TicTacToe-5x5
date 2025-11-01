@@ -119,3 +119,29 @@ javac tictac/*.java
 # 3. run
 java tictac.TicTac
 ```
+### Note:
+Make sure the image files (X.jpg, O.jpg, cardback.jpg) stay in the same relative path expected by the code so the icons load. If icons fail to load, you’ll see blank buttons, but the game still works.
+
+---
+
+## What I learned:
+- Building a complete GUI in Java Swing, not just console logic.
+
+- Using a 2D array to represent the board and check game state.
+  
+- Writing a generalized win checker that looks for 4 in a row in all directions.
+  
+- Handling event-driven programming with ActionListener, instead of while loops.
+  
+- Managing game reset state without restarting the program.
+
+---
+
+## Possible improvements
+- Add single-player mode with a bot AI.
+
+- Add sound effects on click / win.
+
+- Animate the winning line flash instead of just recoloring.
+
+- Add a timer per turn, or limit total moves.
